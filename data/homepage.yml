@@ -1,18 +1,10 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Believe in Technology, Make the change"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  title : "Let us Make the world listen to Us!"
+  content1 : "The Covid19 “lockdown” in India has caused unspeakable pain to millions, especially migrant labourers."
+  content2 : "Another crisis caused by the lockdown is that of rampant “Unemployment”. People lost their jobs due to the economy shutting down. Big corporations are also using this opportunity to increase profits by downsizing their staff."
   image : "images/watch.png"
-  button: "Buy Now With $199"
-
-############################## product ###########################
-product:
-  name : "Smart watch"
-  image : "images/watch.png"
-  price : "199"
-  colors : ["black","white","gray"]
-  sizes : ["small","medium","large"]
 
 ############################# Feature ############################
 features:
@@ -23,36 +15,30 @@ features:
   # feature at the left of the image
   leftSide:
     # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Smooth Touch"
+  - title : "Smooth Touch"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     
     # feature item loop
-  - icon : "tf-ion-ios-bell-outline"
-    title : "Elegant Design"
+  - title : "Elegant Design"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     
     # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Easy Pricing"
+  - title : "Easy Pricing"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
 
   # feature at the right of the image
   rightSide:
     # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Smooth Touch"
+  - title : "Smooth Touch"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
     # feature item loop
-  - icon : "tf-ion-ios-bell-outline"
-    title : "Elegant Design"
+  - title : "Elegant Design"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
     # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Easy Pricing"
+  - title : "Easy Pricing"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
 
@@ -123,17 +109,14 @@ testimonial:
     # testimonial item loop
     - name : "Jonathon Andrew"
       designation : "CEO, Themefisher"
-      image : "images/avater.png"
       content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
       
     # testimonial item loop
     - name : "Jonathon Andrew"
       designation : "CEO, Themefisher"
-      image : "images/avater.png"
       content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
       
     # testimonial item loop
     - name : "Jonathon Andrew"
       designation : "CEO, Themefisher"
-      image : "images/avater.png"
       content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
