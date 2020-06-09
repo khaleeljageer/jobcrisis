@@ -1,6 +1,6 @@
 
 ################################### Default Configuration ############################
-baseURL = "/"
+baseURL = ""
 languageCode = "en-us"
 title = "Jobs in Crisis"
 theme = "vex-hugo"
