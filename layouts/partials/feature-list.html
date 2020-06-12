@@ -18,10 +18,11 @@
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
           <h4 class="subheading">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <p>{{ .content1 | markdownify }}</p>
+          <p>{{ .content2 | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
+          <a href="{{ .link | absURL }}" target="_blank" class="btn btn-main btn-main-sm">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>
@@ -35,7 +36,7 @@
           <p>{{ .content | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
+          <a href="{{ .link | absURL }}" target="_blank" class="btn btn-main btn-main-sm">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>

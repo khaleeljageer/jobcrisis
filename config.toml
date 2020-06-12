@@ -39,7 +39,7 @@ URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 ###################################### Navigation ######################################
 
 [[menu.main]]
-name = "Feature"
+name = "Why Now?"
 URL = "feature"
 weight = 2
 
@@ -63,6 +63,8 @@ description = "Let us Make the world listen to Us!"
 author = "Themefisher"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
+# copyright
+copyright = "Copyright 2020 &copy; [themefisher](http://www.Themefisher.com) | All right reserved."
 
 # Preloader
 [params.preloader]

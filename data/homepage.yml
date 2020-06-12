@@ -5,11 +5,12 @@ banner:
   content1 : "The Covid19 “lockdown” in India has caused unspeakable pain to millions, especially migrant labourers."
   content2 : "Another crisis caused by the lockdown is that of rampant “Unemployment”. People lost their jobs due to the economy shutting down. Big corporations are also using this opportunity to increase profits by downsizing their staff."
   image : "images/watch.png"
+  button : "Share your Story"
 
 ############################# Feature ############################
 features:
   enable : true
-  title : "Our Core Features"
+  title : "Why Should We Raise Our Voices?"
   image : "images/watch-2.png"
 
   # feature at the left of the image
@@ -46,39 +47,36 @@ features:
 promo:
   enable : true
   image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  title : "Let us show our leaders the demands of the nation's youth"
+  content1 : "Even though the Indian Prime Minister has requested companies to not fire their employees, lay-offs are ongoing extensively."
+  content2 : "Many who lost their jobs were forcefully asked to resign."
+  content3 : "The situation is worsening every day, but the government doesn't seem to be listening to our pain."
 
 
 ############################# About Product #######################
 aboutProduct:
   enable : true
-  title : "Why Choose Apple Watch"
+  title : "The Word Must Know the Pain of Unemployed Youth"
   items:
     # about product item loop
     - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+      title : "Let us unite to raise our voices!"
+      content1 : "World dose not seem to know the real size of the ongoing crisis. Media reports do not reflect the real situation."
+      content2 : "Tell us about your struggles due to losing the job! Let us make the world hear our story."
+
       button:
         enable : true
-        label : "Check Features"
-        link : "#"
+        label : "Raise your voice"
+        link : "https://www.google.com"
         
     # about product item loop
     - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+      title : "We will ensure your privacy!"
+      content : "The privacy of the details provided by you will be strctly maintained. The data will not be shared with any external third-party. You can choose not to provide any detail you feel is irrelevant."
       button:
         enable : true
-        label : "Check Features"
-        link : "#"
+        label : "Stand with Us"
+        link : "https://www.google.com"
 
 
 #################################### Gallery ########################
@@ -104,19 +102,19 @@ cta:
 ############################## Testimonial ##########################
 testimonial:
   enable : true
-  title : "Watch Review"
+  title : "Testimonials"
   testimonialItem:
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Surjit"
+      designation : "IT worker who was laid-off"
+      content : "So many of us have lost jobs. One of our WhatsApp groups has over 160 employees who lost jobs. My manager called me and gave me two options and both the options were about resigning the job"
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Uttama Kumar"
+      designation : "Advocate, Tanjore."
+      content : "I am an advocate. My wife works on leaf-streak knitting. Since the income from that is not sufficient, I have returned to my family occupation of weaving baskets"
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Media persons"
+      designation : "laid-off for \"cost-cutting\""
+      content : "The termination of employee from the job or reduction in wages in this scenario would further deepen the crisis and will weaken the financial condition of the employee and also hamper their morale"
