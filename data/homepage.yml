@@ -4,7 +4,7 @@ banner:
   title : "Let us Make the world listen to Us!"
   content1 : "The Covid19 “lockdown” in India has caused unspeakable pain to millions, especially migrant labourers."
   content2 : "Another crisis caused by the lockdown is that of rampant “Unemployment”. People lost their jobs due to the economy shutting down. Big corporations are also using this opportunity to increase profits by downsizing their staff."
-  image : "images/home_image.png"
+  image : "images/logo_jobs.png"
   button : "Share your Story"
 
 ############################# Feature ############################
@@ -84,16 +84,15 @@ gallery:
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
-
+  images : ["show_case1.jpeg", "show_case2.jpeg", "show_case3.jpeg"]
 
 
 ################################## call to action ###################
 cta:
   enable : true
   bgImage : "images/call-to-action.jpg"
-  title : "Get Product Updates"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  title : "Powered by Democratic Youth Fedration of India - Tamil Nadu"
+  content : ""
   placeholder : "Your Email Address Here"
 
 

@@ -4,14 +4,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-8 text-center mx-auto">
-        <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
+        <h2 class="subheading text-white" style="font-weight:bold">{{ .title | markdownify }}</h2>
         <p class="text-white">{{ .content | markdownify }}</p>
-        <div class="input-group">
-          <form name="contact" {{ if .args }}{{ .args | safeHTMLAttr }}{{ else }}action="#"{{ end }} class="w-100">
-            <input type="email" id="email" class="form-control" name="email" placeholder="{{ .placeholder }}"
-              required>
-            <button class="btn btn-main btn-submit" type="submit">Subscribe</button>
-          </form>
+        <div style="margin: 0 auto;">
+            <button class="btn btn-facebook" onclick="window.open('https://www.facebook.com/DyfiTamilNadu','_blank')">Follow US</button>
         </div><!-- /input-group -->
       </div>
     </div>
