@@ -18,7 +18,7 @@ features:
   leftSide:
     # feature item loop
   - title : "Historical Levels of Unemployment"
-    content : "While the unemployment rate was more than 8% even before the lockdown, it climbed to over 25% at the end of April. More than 12.2 people have lost their jobs in April. TN is the worst hit state with unemployment rate rising to 50%."
+    content : "While the unemployment rate was more than 8% even before the lockdown, it climbed to over 25% at the end of April. More than **12.2 crore** people have lost their jobs in April. TN is the worst hit state with unemployment rate rising to 50%."
     
     # feature item loop
   - title : "Youth Massively Affected"
@@ -26,7 +26,7 @@ features:
     
     # feature item loop
   - title : "Question Mark Over the Future"
-    content : "Several people are constantly under the threat of losing their jobs. Experts predict up to 1.5lakh job losses in the near future. Most start-ups are shutting down, unable to withstand the competition from big firms. Even if economy recovers, it would be hard to find a job for many. Most corporates will try to minimise new hiring, forcing the existing employees to work harder to sustain profits. The new hires might also be offered very low salaries."
+    content : "Several people are constantly under the threat of losing their jobs. Experts predict up to **1.5lakh job losses in IT Sector** in the near future. Most start-ups are shutting down, unable to withstand the competition from big firms. Even if economy recovers, it would be hard to find a job for many. Most corporates will try to minimise new hiring, forcing the existing employees to work harder to sustain profits. The new hires might also be offered very low salaries."
 
   # feature at the right of the image
   rightSide:
