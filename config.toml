@@ -64,7 +64,7 @@ author = "Themefisher"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # copyright
-copyright = "Powered by Democratic Youth Fedration of India - Tamil Nadu"
+copyright = "Powered by [Democratic Youth Fedration of India - Tamil Nadu](https://www.facebook.com/DyfiTamilNadu)"
 
 # Preloader
 [params.preloader]
