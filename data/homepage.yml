@@ -81,7 +81,7 @@ aboutProduct:
 #################################### Gallery ########################
 gallery:
   enable : true
-  title : "Checkout some amazing Shorts"
+  title : "Checkout some Facts"
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery

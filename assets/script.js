@@ -36,13 +36,4 @@ $(document).ready(function () {
       return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
     }
   });
-
-  $("#jsSocials").jsSocials({
-    url: "http://saveeducation.in",
-    text: "I just sent an email to help #SaveEducation, you too can.",
-    showCount: "inside",
-    showLabel: false,
-    shareIn: "popup",
-    shares: ["twitter", "facebook", "whatsapp", "googleplus"]
-  });
 });

@@ -44,7 +44,7 @@ URL = "feature"
 weight = 2
 
 [[menu.main]]
-name = "Gallery"
+name = "Facts"
 URL = "gallery"
 weight = 3
 
