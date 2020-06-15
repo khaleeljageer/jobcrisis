@@ -78,5 +78,5 @@ home = "Home"
 [Languages.ta]
 languageName = "Ta"
 languageCode = "ta-IN"
-weight = 2
+weight = 1
 home = "முகப்பு"
