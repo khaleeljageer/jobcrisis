@@ -1,0 +1,24 @@
+############################# About Product #######################
+aboutProduct:
+  enable : true
+  title : "The Word Must Know the Pain of Unemployed Youth"
+  items:
+    # about product item loop
+    - image : "images/employee.png"
+      title : "Let us unite to raise our voices!"
+      content1 : "World dose not seem to know the real size of the ongoing crisis. Media reports do not reflect the real situation."
+      content2 : "Tell us about your struggles due to losing the job! Let us make the world hear our story."
+
+      button:
+        enable : true
+        label : "Raise your voice"
+        link : "https://forms.gle/bi84QiNR3yVCH5gQ6"
+        
+    # about product item loop
+    - image : "images/secure.png"
+      title : "We will ensure your privacy!"
+      content : "The privacy of the details provided by you will be strctly maintained. The data will not be shared with any external third-party. You can choose not to provide any detail you feel is irrelevant."
+      button:
+        enable : true
+        label : "Let's UNITE"
+        link : "https://forms.gle/bi84QiNR3yVCH5gQ6"

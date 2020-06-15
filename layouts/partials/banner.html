@@ -1,9 +1,10 @@
-{{- if .Site.Data.homepage.banner.enable }}
+{{ $data := index .Site.Data .Site.Language.Lang }} 
+{{- if $data.banner.banner.enable }} 
 <!-- hero area -->
 <section class="section">
 	<div class="container">
 		<div class="row">
-			{{- with .Site.Data.homepage.banner }}
+			{{- with $data.banner.banner }}
 			<div class="col-md-6 text-center mb-5 mb-md-0">
 				<img class="img-fluid" src="{{ .image | absURL }}" alt="">
 			</div>
@@ -13,10 +14,11 @@
 					<p class="mb-4">{{ .content1 | markdownify }}</p>
 					<p class="mb-4">{{ .content2 | markdownify }}</p>
 					<p class="mb-4" style="font-weight: bold;">{{ .content3 | markdownify }}</p>
-					{{- end }}
+					
 					<button class="snipcart-add-item btn btn-main"
 						onclick="window.open('https://forms.gle/bi84QiNR3yVCH5gQ6','_blank')">
-						{{ .Site.Data.homepage.banner.button }}</button>
+						{{ .button }}</button>
+					{{- end }}
 				</div>
 			</div>
 		</div><!-- .row close -->

@@ -1,5 +1,6 @@
-{{ if .Site.Data.homepage.promo.enable }}
-{{ with .Site.Data.homepage.promo }}
+{{ $data := index .Site.Data .Site.Language.Lang }} 
+{{- if $data.promo.promo.enable }} 
+{{- with $data.promo.promo }}
 <section class="bg-orange section">
   <div class="container">
     <div class="row">
@@ -17,5 +18,5 @@
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
+{{- end }}
+{{- end }}

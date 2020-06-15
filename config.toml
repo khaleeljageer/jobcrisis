@@ -1,7 +1,6 @@
-
 ################################### Default Configuration ############################
 baseURL = ""
-languageCode = "en-us"
+languageCode = "en"
 title = "Jobs in Crisis"
 theme = "vex-hugo"
 
@@ -35,7 +34,6 @@ URL = "js/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 
-
 ###################################### Navigation ######################################
 
 [[menu.main]]
@@ -53,7 +51,6 @@ name = "Testimonial"
 URL = "testimonial"
 weight = 4
 
-
 ########################### Default parameters ##########################
 [params]
 logo = ""
@@ -70,3 +67,17 @@ copyright = "Powered by [Democratic Youth Federation of India - Tamil Nadu](http
 [params.preloader]
 enable = true
 preloader = "" # use .png , .svg or .gif format
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-US"
+weight = 1
+home = "Home"
+
+################################ Tamil Language ########################
+[Languages.ta]
+languageName = "Ta"
+languageCode = "ta-IN"
+weight = 2
+home = "முகப்பு"

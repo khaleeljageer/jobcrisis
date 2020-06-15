@@ -1,5 +1,6 @@
-{{ if .Site.Data.homepage.aboutProduct.enable }}
-{{ with .Site.Data.homepage.aboutProduct }}
+{{ $data := index .Site.Data .Site.Language.Lang }} 
+{{- if $data.about.aboutProduct.enable }}
+{{- with $data.about.aboutProduct }}
 <section class="feature-list section">
   <div class="container">
     <div class="row">

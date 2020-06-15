@@ -1,0 +1,33 @@
+############################# Feature ############################
+features:
+  enable : true
+  title : "Why Should We Raise Our Voices?"
+  image : "images/why_now.png"
+
+  # feature at the left of the image
+  leftSide:
+    # feature item loop
+  - title : "Historical Levels of Unemployment"
+    content : "While the unemployment rate was more than 8% even before the lockdown, it climbed to over 25% at the end of April. More than **12.2 crore** people have lost their jobs in April. TN is the worst hit state with unemployment rate rising to 50%."
+    
+    # feature item loop
+  - title : "Youth Massively Affected"
+    content : "Majority of the unemployed are youths. 2.7 crore between 20-29 years of age and 3.3 crore between 30-39 years of age lost their jobs. Even in formal sectors, companies are finding it legally feasible to fire employees, as hiring on contractual basis has increased in recent years"
+    
+    # feature item loop
+  - title : "Question Mark Over the Future"
+    content : "Several people are constantly under the threat of losing their jobs. Experts predict up to **1.5lakh job losses in IT Sector** in the near future. Most start-ups are shutting down, unable to withstand the competition from big firms. Even if economy recovers, it would be hard to find a job for many. Most corporates will try to minimise new hiring, forcing the existing employees to work harder to sustain profits. The new hires might also be offered very low salaries."
+
+  # feature at the right of the image
+  rightSide:
+    # feature item loop
+  - title : "Wage-Cuts & Extended Hours"
+    content : "Due to work-from-home orders, most IT firms are exploiting workers without any limits on working hours. Overtime pay is also not provided. In fact, several companies have announced 15%-50% wage-cuts."
+
+    # feature item loop
+  - title : "Mounting burdens"
+    content : "Many middle-class workers who lost their jobs are struggling to pay their EMIs for their Education loans, housing loans, medical loans, etc. Graduating youngsters about to look for a job are in deep fear. The dreams of our youth are shattering right in front of us. The worries of millions of families appear to never end."
+    
+    # feature item loop
+  - title : "Job Losses in Formal Sector"
+    content : "While majority of the unemployed (9.1 crore) are daily-wage workers, 1.7 crores salaried workers and 1.8 crore small business owners are also out of jobs. IT sector is among the worst hit. “Scroll” magazine has reported about lay-offs, even up to 20%, in multiple firms, including Ola, Uber, Zomato and Swiggy. Apart from these, countless job losses have happened in “Start-Up” sector too. Media is hardly reporting about the job losses in media sector itself. Many media houses, including the huge ones, are executing their long-term plan to downsize staff. This remains unknown to outside world."
