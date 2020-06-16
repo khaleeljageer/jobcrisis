@@ -10,6 +10,6 @@ menus:
     URL : "gallery"
     weight : 3
   
-  - name : "கதைகள்"
+  - name : "அனுபவங்கள்"
     URL : "testimonial"
     weight : 4
