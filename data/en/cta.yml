@@ -1,0 +1,8 @@
+
+################################## call to action ###################
+cta:
+  enable : true
+  bgImage : "images/call-to-action.jpg"
+  title : "Powered by Democratic Youth Federation of India - Tamil Nadu"
+  button : "Follow US"
+  content : ""

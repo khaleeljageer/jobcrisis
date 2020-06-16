@@ -1,21 +1,3 @@
-#################################### Gallery ########################
-gallery:
-  enable : true
-  title : "Checkout some Facts"
-  # Set the image directory to use as base
-  directory : "images/showcase"
-  # Set the images to show in the gallery
-  images : ["show_case1.jpeg", "show_case2.jpeg", "show_case3.jpeg"]
-
-
-################################## call to action ###################
-cta:
-  enable : true
-  bgImage : "images/call-to-action.jpg"
-  title : "Powered by Democratic Youth Federation of India - Tamil Nadu"
-  content : ""
-
-
 ############################## Testimonial ##########################
 testimonial:
   enable : true
@@ -35,3 +17,4 @@ testimonial:
     - name : "Media persons"
       designation : "laid-off for \"cost-cutting\""
       content : "The termination of employee from the job or reduction in wages in this scenario would further deepen the crisis and will weaken the financial condition of the employee and also hamper their morale"
+      

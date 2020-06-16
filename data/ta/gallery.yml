@@ -1,0 +1,8 @@
+#################################### Gallery ########################
+gallery:
+  enable : true
+  title : "Checkout some Facts"
+  # Set the image directory to use as base
+  directory : "images/showcase"
+  # Set the images to show in the gallery
+  images : ["show_case1.jpeg", "show_case2.jpeg", "show_case3.jpeg"]

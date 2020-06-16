@@ -1,7 +1,8 @@
-{{ if .Site.Data.homepage.testimonial.enable }}
+{{ $data := index .Site.Data .Site.Language.Lang }} 
+{{- if $data.testimonials.testimonial.enable }}
+{{- with $data.testimonials.testimonial }}
 <section class="testimonials section" id="testimonial">
   <div class="container">
-    {{ with .Site.Data.homepage.testimonial }}
     <div class="row justify-content-center">
       <div class="col-12">
         <div class="heading">
@@ -21,7 +22,6 @@
       </div>
       {{ end }}
     </div>
-    {{ end }}
     <div class="row mt-100">
       <div class="col-md-12 text-center">
         <button class="snipcart-add-item btn btn-main"
@@ -32,4 +32,5 @@
 	  <div class="row mt-100 sharethis-inline-share-buttons" />
   </div>
 </section>
+{{ end }}
 {{ end }}
