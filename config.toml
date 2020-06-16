@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseURL = "/"
+baseURL = ""
 title = "Jobs in Crisis"
 theme = "vex-hugo"
 
@@ -33,23 +33,6 @@ URL = "js/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 
-###################################### Navigation ######################################
-
-[[menu.main]]
-name = "Why Now?"
-URL = "feature"
-weight = 2
-
-[[menu.main]]
-name = "Facts"
-URL = "gallery"
-weight = 3
-
-[[menu.main]]
-name = "Testimonial"
-URL = "testimonial"
-weight = 4
-
 ########################### Default parameters ##########################
 [params]
 logo = ""
@@ -68,14 +51,14 @@ enable = true
 preloader = "" # use .png , .svg or .gif format
 
 ################################ English Language ########################
-[Languages.en]
+[languages.en]
 languageName = "En"
 languageCode = "en-US"
 weight = 1
 home = "Home"
 
 ################################ Tamil Language ########################
-[Languages.ta]
+[languages.ta]
 languageName = "Ta"
 languageCode = "ta-IN"
 weight = 1

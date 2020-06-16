@@ -8,10 +8,13 @@
             <li class="list-inline-item">
               <a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
             </li>
-            {{ range .Site.Menus.main }}
+            {{ $data := index .Site.Data .Site.Language.Lang }} 
+            {{- with $data.menu.menus }}
+            {{ range .main }}
             <li class="list-inline-item">
-              <a class="page-scroll" href="#{{ .URL }}">{{ .Name }}</a>
+              <a class="page-scroll" href="#{{ .URL }}">{{ .name }}</a>
             </li>
+            {{ end }}
             {{ end }}
           </ul>
           <p class="copyright-text">{{ .Site.Params.copyright | markdownify }}</p>

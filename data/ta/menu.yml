@@ -1,0 +1,15 @@
+
+###################################### Navigation ######################################
+menus:
+  main:
+  - name : "ஏன்?"
+    URL : "feature"
+    weight : 2
+
+  - name : "தரவுகள்"
+    URL : "gallery"
+    weight : 3
+  
+  - name : "கருத்துக்கள்"
+    URL : "testimonial"
+    weight : 4

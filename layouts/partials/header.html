@@ -13,10 +13,13 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
           </li>
-          {{ range .Site.Menus.main }}
+          {{ $data := index .Site.Data .Site.Language.Lang }} 
+          {{- with $data.menu.menus }}
+          {{ range .main }}
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#{{ .URL }}">{{ .Name }}</a>
+            <a class="nav-link page-scroll" href="#{{ .URL }}">{{ .name }}</a>
           </li>
+          {{ end }}
           {{ end }}
         </ul>
       </div>

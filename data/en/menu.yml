@@ -1,0 +1,15 @@
+
+###################################### Navigation ######################################
+menus:
+  main:
+  - name : "Why Now?"
+    URL : "feature"
+    weight : 2
+
+  - name : "Facts"
+    URL : "gallery"
+    weight : 3
+  
+  - name : "Testimonial"
+    URL : "testimonial"
+    weight : 4
