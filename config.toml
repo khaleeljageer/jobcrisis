@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseURL = "www.jobsincrisis.in/"
+baseURL = ""
 title = "Jobs in Crisis"
 theme = "vex-hugo"
 
