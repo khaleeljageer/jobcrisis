@@ -4,6 +4,26 @@ testimonial:
   title : "அனுபவங்கள்"
   testimonialItem:
     # testimonial item loop
+    - name : "Spa & Fitness"
+      designation : "Lay-Off"
+      content : "Job lost.. At the age of 42, I don't know how I am going to get another job in this crisis. House rent, monthly expenses and school fees also there. Whole family under stress.. No other words to explain.."
+
+    # testimonial item loop
+    - name : "வேலையிழந்தவர்"
+      designation : "Marketing"
+      content : "சாலையோர தொழில் என்னோடு போகட்டும் என்று படிக்க வைத்த தந்தையின் கனவு பொய்த்தது."
+
+    # testimonial item loop
+    - name : "Tourism Management"
+      designation : "Company Closed"
+      content : "I as a small scale entrepreneur lost the whole business from March obvious tourism hasn't hv any hope for the next 3 months atleast, as unorganized sector people like us suffered a lot."
+      
+    # testimonial item loop
+    - name : "ஆசிரியர்"
+      designation : "புதுச்சேரி"
+      content : "Am depending on this work only. Due to lockdown schools are closed there is no job for us. It makes increasing my depression day by day. "
+
+    # testimonial item loop
     - name : "சுர்ஜித்"
       designation : "வேலையிழந்த IT ஊழியர்"
       content : "எங்களில் பலரும் பணியிழந்துள்ளோம்! எங்கள் வாட்சாப் குழுவில் 160க்கும் மேற்பட்ட வேலையிழந்தோர் உள்ளனர். என் மேற்பார்வையாளர் என்னை அழைத்து இரண்டு வாய்ப்புகள் கொடுத்தார். இரண்டுமே வேலையை விடுவதற்கான வாய்ப்புகள்."
@@ -17,4 +37,3 @@ testimonial:
     - name : "ஊடகவியலாளர்கள்"
       designation : "செலவை குறைக்க பணி நீக்கப்பட்டவர்கள்"
       content : "இந்நேரத்தில் ஊழியர்களை வேலையிலிருந்து நீக்குவதும் ஊதியத்தை குறைப்பதும் நெருக்கடியை மோசமாக்கும். ஊழியர்களின் நிதி ஆதாரத்தை அழித்தது, மனதளவில் பாதிக்கும்."
-      

@@ -4,6 +4,26 @@ testimonial:
   title : "Testimonials"
   testimonialItem:
     # testimonial item loop
+    - name : "Spa & Fitness"
+      designation : "Lay-Off"
+      content : "Job lost.. At the age of 42, I don't know how I am going to get another job in this crisis. House rent, monthly expenses and school fees also there. Whole family under stress.. No other words to explain.."
+
+    # testimonial item loop
+    - name : "Common Man"
+      designation : "Marketing"
+      content : "சாலையோர தொழில் என்னோடு போகட்டும் என்று படிக்க வைத்த தந்தையின் கனவு பொய்த்தது."
+
+    # testimonial item loop
+    - name : "Tourism Management"
+      designation : "Company Closed"
+      content : "I as a small scale entrepreneur lost the whole business from March obvious tourism hasn't hv any hope for the next 3 months atleast, as unorganized sector people like us suffered a lot."
+      
+    # testimonial item loop
+    - name : "Teacher"
+      designation : "Pondicherry"
+      content : "Am depending on this work only. Due to lockdown schools are closed there is no job for us. It makes increasing my depression day by day. "
+
+    # testimonial item loop
     - name : "Surjit"
       designation : "IT worker who was laid-off"
       content : "So many of us have lost jobs. One of our WhatsApp groups has over 160 employees who lost jobs. My manager called me and gave me two options and both the options were about resigning the job"
